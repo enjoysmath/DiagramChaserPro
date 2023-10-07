@@ -1,0 +1,17 @@
+#!wing
+#!version=9.0
+##################################################################
+# Wing project file                                              #
+##################################################################
+[project attributes]
+proj.file-list = [loc('diagram_editor.py'),
+                  loc('diagram_scene.py'),
+                  loc('game.py'),
+                  loc('identity_is_unique.py'),
+                  loc('label.py'),
+                  loc('main.py'),
+                  loc('main_window.py'),
+                  loc('node.py'),
+                  loc('page.py')]
+proj.file-type = 'shared'
+proj.main-file = loc('main.py')
